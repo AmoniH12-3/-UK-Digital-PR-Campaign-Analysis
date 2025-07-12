@@ -1,4 +1,4 @@
-# -UK-Digital-PR-Campaign-Analysis
+# UK Digital PR Campaign-Analysis
 ## Introduction
 - This project analyzes UK digital PR campaigns focused on measuring conversions, referral traffic, media mentions, and backlink efficiency across regions.
 -🔝 The campaign types with the most conversions
@@ -20,14 +20,14 @@
 
 ## 🔝 The campaign types with the most conversions
 
-| campaign_name|conversions|referral_traffic|conversion_rate|
-|--------------------------------------|------------------|--------------|
-|AI Pet Translator|1200|5200|0.231
-|Moonbag Survival Kit|960|4400|0.218
-|Rent Prices Heat Map|760|3500|0.217
-|Green Commuter Cities|540|2900|0.186
-|CBD Myths Busted|400|1800|0.222|
-|Gen Z Workplace Trends|210|1200|0.175|
+| Campaign Name                        | Conversions      | Referral Traffic|Conversion Rate|
+|--------------------------------------|------------------|--------------|-------------------|
+|AI Pet Translator                     |1200              |  5200        |      0.231        |
+|Moonbag Survival Kit                  |960               |  4400        |      0.218        |
+|Rent Prices Heat Map                  |760               |  3500        |      0.217        |
+|Green Commuter Cities                 |540               |  2900        |      0.186        |
+|CBD Myths Busted                      |400               |  1800        |      0.222        |
+|Gen Z Workplace Trends                |210               |  1200        |      0.175        |
 
 ``` sql
 SELECT campaign_name, Conversions
@@ -41,7 +41,7 @@ ORDER BY Conversions DESC;
 ## 📈 The average referral traffic for each campaign by topic
 
 |campaign_name|topic|avg_referral_traffic|
-|-----------|--------------|
+|-----------|--------------|-------------|
 |AI Pet Translator|Tech|5200|
 |Moonbag Survival Kit|Space|4400|
 |Rent Prices Heat Map|Real Estate|3500|
@@ -67,7 +67,7 @@ ORDER BY avg_referral_traffic DESC;
 ### 
 
 |campaign_name	media mentions|	conversions	referral_traffic|conversion_rate|
-|----------------|----------------|
+|----------------|----------------|-------------------------|
 | Neo4j          | 185,000.00     |
 | Elasticsearch  | 185,000.00     |
 | Cassandra      | 175,000.00     |
