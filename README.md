@@ -13,10 +13,10 @@
 -  Each query was crafted to evaluate how effectively digital PR campaigns converted traffic into conversions, earned backlinks, and gained media visibility.
 ## 🗂️ Data Schema
 - The project uses four key tables:
-- `UK Campaigns by Conversions`: Main job data (location, salary, remote status)
-- `By Referral Traffic`: Unique list of skills
-- `By Media Mentions`: Many-to-many join table between jobs and skills
-- `Region with the best backlink to conversion rate`: Company details
+- `UK Campaigns by Conversions`
+- `By Referral Traffic`
+- `By Media Mentions`
+- `Region with the best backlink to conversion rate`
 
 ## 🔝 The campaign types with the most conversions
 
