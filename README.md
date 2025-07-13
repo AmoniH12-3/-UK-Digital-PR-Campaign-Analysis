@@ -1,10 +1,10 @@
 # UK Digital PR Campaign Analysis
 ## Introduction
 - This project analyzes UK digital PR campaigns focused on measuring conversions, referral traffic, media mentions, and backlink efficiency across regions.
--🔝 The campaign types with the most conversions
--📈 The average referral traffic for each campaign by topic
--🔝 Which region had the best backlinks-to-conversion rate
--📈 Ranking the campaigns by the most media mentions
+- 🔝 The campaign types with the most conversions
+- 📈 The average referral traffic for each campaign by topic
+- 🔝 Which region had the best backlinks-to-conversion rate
+- 📈 Ranking the campaigns by the most media mentions
 ## Background
 ### Tools I used
 - **BigQuery** — used for writing, testing, and managing SQL queries
